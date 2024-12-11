@@ -1,0 +1,20 @@
+header{
+    display :grid ;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 1%;
+
+}
+li{
+    padding: 1rem 7rem;
+    justify-content: space-between;
+    border:solid;
+    text-align: center;
+
+
+}
