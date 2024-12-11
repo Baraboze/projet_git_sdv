@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
-<body>
-    
+<body class="ASbody">
+   
+    <header class="ASheader">
+        <h1 class="AStitle">Contactez-nous</h1>
+    </header>
+   
+    <main class="ASmain">
+        <h2 class="ASsubtitle">Une question ? Une suggestion ?</h2>
+        <p class="ASdescription">Remplissez le formulaire ci-dessous ou utilisez nos coordonnées pour nous joindre.</p>
+
+      
+        <form action="#" method="post" class="ASformulaire">
+            <label for="name" class="ASlabel">Nom :</label>
+            <input type="name" id="name" name="name" required class="ASinput">
+
+            <label for="email" class="ASlabel">Email :</label>
+            <input type="email" id="email" name="email" required class="ASinput">
+
+            <label for="message" class="ASlabel">Message :</label>
+            <textarea id="message" name="message" rows="5" required class="AStextarea"></textarea>
+
+            <button type="submit" class="ASbutton">Envoyer</button>
+        </form>
+
+
+
+        <div class="AScontact-info">
+            <h3 class="AScontact-title">Informations de contact :</h3>
+            <p><strong>Email :</strong> apprendre_ensemble@assos.org</p>
+            <p></p><strong>Téléphone :</strong> +33 6 23 45 67 89</p>
+            <p><strong>Adresse :</strong> 21 rue du Bignon, 35135 Chantepie, France</p>
+            <p><strong>Réseaux sociaux :</strong></p>
+           
+
+           
+            <ul class="ASsocial-list">
+                <li><a href="#">Facebook : /ApprendreEnsemble</a></li>
+                <li><a href="#">Instagram : @ApprendreEnsemble</a></li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
