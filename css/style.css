@@ -1,0 +1,21 @@
+.alpresident , .alpresidentadj , .altresorier , .alsecretaire{
+    list-style: none;
+    display: flex;
+  }
+  .almembres{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+.almembres {
+    list-style: none;
+    background-color: #f9f6ef;
+    width: 75%;
+    margin: 4rem auto 4rem;
+    border-radius: 20px;
+    padding: 0.5rem 0.7rem;
+  }
+  ul{
+  list-style: none;
+  }
