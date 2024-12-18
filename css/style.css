@@ -1,20 +1,162 @@
 header{
-    display :grid ;
+    display :block ;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 0%;
 }
+body{
+    font-family: Montserrat;
+}
+header h2{
+    color:black;
+}
+header img{
+    width: 15%;
+}
+
 
 ul{
     display: flex;
     list-style-type: none;
-    margin: 1%;
-
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10%;
 }
 li{
-    padding: 1rem 7rem;
+    padding: 2rem 7rem;
     justify-content: space-between;
     border:solid;
+    border-color: gray;
     text-align: center;
+    justify-content: center;
+    text-decoration: gray;
+    border-radius: 10%;
+
+}
+main{
+    display: grid;
+    background-color: rgb(8, 8, 96);
+    align-items: center;
+    text-align: center;
+}
+.JMmembres{
+    border: solid;
+    margin: 1rem;
+    background-color: grey;
+    background-color: rgb(2, 2, 46);
+    border-color: white;
+
+}
+.JMcatégories{
+    display: flex;
+    margin: 1%;
+    border: solid;
+    padding: 5%;
+    background-color: rgb(2, 2, 46);
+    border-color: white;
+    
+
+}
+.JMprésentation{
+    display:grid ;
+    align-items: center;
+    border-color: white;
+
+}
+
+img{
+    border-radius: 10%;
+    margin: 2%;
+    border-color: white;
+    border:solid;
+    border-color: white;
+}
 
 
+.JMitem1, .JMitem2, .JMitem3{
+    align-items: center;
+    text-align: center;
+    border: solid;
+    border-radius: 10%;
+    margin: 0.25%;
+    background-color: grey;
+    justify-content: space-between;
+    border-color: white;
+}
+/* Changer la couleur pour un élément spécifique */
+h1,h2,h3,p {
+    color:white /* Rouge en RGB */
+}
+h3{
+    text-decoration: white;
+}
+footer{
+    color: black;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    
+    text-align: center;
+    text-decoration: black;
+    color: black;
+}
+.JMmembres img{
+    margin: 1%;
+    padding: 1%;
+    border-radius: 100%;
+   
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    ul {
+        flex-wrap: wrap;
+    }
+
+    li {
+        padding: 0.5rem 1rem;
+        width: 50%; /* Ajuste la largeur pour que deux éléments tiennent */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 25%; /* Logo plus grand sur les tablettes */
+    }
+
+    .JMcatégories {
+        flex-direction: column;
+    }
+
+    .JMitem1, .JMitem2, .JMitem3 {
+        flex: 1 1 100%; /* Chaque item prend toute la largeur */
+    }
+
+    li {
+        width: 100%; /* Navigation en colonne */
+        margin: 5px 0;
+    }
+
+    footer {
+        height: auto; /* Laissez le footer s'adapter au contenu */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header img {
+        width: 50%; /* Logo encore plus grand sur mobile */
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
 }
