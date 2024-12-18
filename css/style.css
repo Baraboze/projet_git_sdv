@@ -1,13 +1,4 @@
-/* Partie augustin*/
-.alpresident , .alpresidentadj , .altresorier , .alsecretaire {
-    list-style: none;
-    display: flex;
-  }
-  .almembres1{
-    list-style: none;
-  }
 
-  /* Fin partie Augustin*/
 /*partie JM*/
 header{
     display :block ;
