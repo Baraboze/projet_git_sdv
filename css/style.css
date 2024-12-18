@@ -38,7 +38,7 @@ li{
 }
 main{
     display: grid;
-    background-color: rgb(8, 8, 96);
+    background-color: #404040 ;
     align-items: center;
     text-align: center;
 }
@@ -46,7 +46,7 @@ main{
     border: solid;
     margin: 1rem;
     background-color: grey;
-    background-color: rgb(2, 2, 46);
+    background-color:#4E888F ;
     border-color: white;
 
 }
@@ -55,7 +55,7 @@ main{
     margin: 1%;
     border: solid;
     padding: 5%;
-    background-color: rgb(2, 2, 46);
+    background-color: #4E888F;
     border-color: white;
     
 
@@ -82,7 +82,7 @@ img{
     border: solid;
     border-radius: 10%;
     margin: 0.25%;
-    background-color: grey;
+    background-color:#404040;
     justify-content: space-between;
     border-color: white;
 }
