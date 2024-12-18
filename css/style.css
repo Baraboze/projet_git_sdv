@@ -1,4 +1,6 @@
+
 body.ASbody {
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -95,6 +97,7 @@ a.ASsocial-link { color: #4E888F;
 a.ASsocial-link:hover {
     text-decoration: underline;
 }
+
 header h1 {
     color: #404040;
     background-color: #4E888F;
@@ -162,4 +165,4 @@ header h1 {
     font-size: 1rem;
     color: #666;
 }
- }
+}
