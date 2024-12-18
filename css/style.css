@@ -1,3 +1,13 @@
+/* Partie augustin*/
+.alpresident , .alpresidentadj , .altresorier , .alsecretaire {
+    list-style: none;
+    display: flex;
+  }
+  .almembres1{
+    list-style: none;
+  }
+
+  /* Fin partie Augustin*/
 /*partie JM*/
 header{
     display :block ;
@@ -280,16 +290,20 @@ header h1 {
 }
 
 .KC-box {
+
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background-color: #4E888F;
-    border: 1px solid #404040;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    color: #ffffff;
-}
+    width: 85vw;
+    margin: 4rem auto 4rem;
+    border-radius: 20px;
+    padding: 0.5rem 0.7rem;
+    
+  }
+  ul{
+  list-style: none;
+  }
+
 
 .KC-box:nth-child(even) {
     flex-direction: row-reverse;
@@ -332,3 +346,4 @@ header h1 {
     color: #666;
 }
 }
+
