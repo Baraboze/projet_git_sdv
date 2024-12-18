@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 body.ASbody {
-=======
 body {
->>>>>>> b8cb6dfc33fb5f99ed3ede948cc213c95ceb15be
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,7 +7,6 @@ body {
     color: #404040;
 }
 
-<<<<<<< HEAD
 header.ASheader {
     background-color: #4E888F;
     color: white;
@@ -99,7 +95,6 @@ a.ASsocial-link { color: #4E888F;
 a.ASsocial-link:hover {
     text-decoration: underline;
 }
-=======
 header h1 {
     color: #404040;
     background-color: #4E888F;
@@ -167,4 +162,4 @@ header h1 {
     font-size: 1rem;
     color: #666;
 }
->>>>>>> b8cb6dfc33fb5f99ed3ede948cc213c95ceb15be
+ }
