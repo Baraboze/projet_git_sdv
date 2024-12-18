@@ -1,17 +1,16 @@
  
-.alpresident , .alpresidentadj , .altresorier , .alsecretaire{
+.alpresident , .alpresidentadj , .altresorier , .alsecretaire {
     list-style: none;
     display: flex;
   }
   .almembres{
     list-style: none;
-    list-style: none;
+
     display: flex;
     justify-content: space-between;
-  }
-.almembres {
-    list-style: none;
-    background-color: #f9f6ef;
+
+
+    background-color: #1860a4;
     width: 75%;
     margin: 4rem auto 4rem;
     border-radius: 20px;
@@ -97,3 +96,4 @@ header h1 {
     font-size: 1rem;
     color: #666;
 }
+
