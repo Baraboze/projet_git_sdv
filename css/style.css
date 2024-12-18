@@ -337,4 +337,16 @@ header h1 {
     color: #666;
 }
 }
+/* Partie augustin*/
+.alpresident , .alpresidentadj , .altresorier , .alsecretaire {
+    list-style: none;
+    display: flex;
+  }
+  .almembres1{
+    list-style: none;
+  
+
+  }
+
+  /* Fin partie Augustin*/
 
