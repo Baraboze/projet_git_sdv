@@ -1,6 +1,7 @@
+/*<<<<<<< HEAD
+code CSS de Kadvael */
 
-/*partie JM*/
-header{
+.JMheader{
     display :block ;
     align-items: center;
     justify-content: flex-start;
@@ -8,25 +9,25 @@ header{
     text-align: center;
     padding: 0%;
 }
-body{
+.JMbody{
     font-family: Montserrat;
 }
-header h2{
+.JMheader .JMh2{
     color:black;
 }
-header img{
+.JMheader .JMimg{
     width: 15%;
 }
 
 
-ul{
+.JMul{
     display: flex;
     list-style-type: none;
     justify-content: center;
     padding: 1rem;
     border-radius: 10%;
 }
-li{
+.JMli{
     padding: 2rem 7rem;
     justify-content: space-between;
     border:solid;
@@ -37,8 +38,7 @@ li{
     border-radius: 10%;
 
 }
-
-main{
+.JMmain{
     display: grid;
     background-color: #404040 ;
     align-items: center;
@@ -69,7 +69,7 @@ main{
 
 }
 
-img{
+.JMimg{
     border-radius: 10%;
     margin: 2%;
     border-color: white;
@@ -89,48 +89,48 @@ img{
     border-color: white;
 }
 /* Changer la couleur pour un élément spécifique */
-h1,h2,h3,p {
+.JMh1,.JMh2,.JMh3,.JMp {
     color:white /* Rouge en RGB */
 }
-h3{
+.JMh3{
     text-decoration: white;
 }
-footer{
+.JMfooter{
     color: black;
     height: 10%;
     align-items: center;
     text-align: center;
 }
-footer p{
+.JMfooter .JMp{
     
     text-align: center;
     text-decoration: black;
     color: black;
 }
-.JMmembres img{
+.JMmembres .JMimg{
     margin: 1%;
     padding: 1%;
     border-radius: 100%;
    
 }
-a{
+.JMa{
     text-decoration: none;
 }
-/*code CSS de Kadvael */
+/*code CSS de Kadvael 
 @media screen and (max-width: 1024px) {
-    ul {
+    .JMul {
         flex-wrap: wrap;
     }
 
-    li {
+    .JMli {
         padding: 0.5rem 1rem;
-        width: 50%; /* Ajuste la largeur pour que deux éléments tiennent */
+        width: 50%; /* Ajuste la largeur pour que deux éléments tiennent 
     }
 }
 
 @media screen and (max-width: 768px) {
-    header img {
-        width: 25%; /* Logo plus grand sur les tablettes */
+    .JMheader .JMimg {
+        width: 25%; /* Logo plus grand sur les tablettes 
     }
 
     .JMcatégories {
@@ -138,38 +138,38 @@ a{
     }
 
     .JMitem1, .JMitem2, .JMitem3 {
-        flex: 1 1 100%; /* Chaque item prend toute la largeur */
+        flex: 1 1 100%; /* Chaque item prend toute la largeur 
     }
 
-    li {
-        width: 100%; /* Navigation en colonne */
+    .JMli {
+        width: 100%; /* Navigation en colonne 
         margin: 5px 0;
     }
 
-    footer {
-        height: auto; /* Laissez le footer s'adapter au contenu */
+    .JMfooter {
+        height: auto; /* Laissez le footer s'adapter au contenu 
     }
 }
 
 @media screen and (max-width: 480px) {
-    header img {
-        width: 50%; /* Logo encore plus grand sur mobile */
+    .JMheader .JMimg {
+        width: 50%; /* Logo encore plus grand sur mobile 
     }
 
-    body {
+    .JMbody {
         font-size: 14px;
     }
 
-    h1, h2 {
+    .JMh1, .JMh2 {
         font-size: 1.2em;
     }
-}
+*/
+
 /* fin partie JM */
 
 /* parti Antoine */
 body.ASbody {
 
-body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -331,5 +331,5 @@ a.ASsocial-link:hover {
     font-size: 1rem;
     color: #666;
 }
-}
+
 
