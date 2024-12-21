@@ -328,3 +328,40 @@ a.ASsocial-link:hover {
     color: #666;
 }
 
+/* Partie augustin*/
+.alpresident , .alpresidentadj , .altresorier , .alsecretaire {
+    list-style: none;
+    display:block;
+  
+  }
+  .almembres1{
+    list-style: none;
+    background-color: #4E888F;
+    width: 85vw;
+    margin: 4rem auto 4rem;
+    border-radius: 20px;
+    padding: 0.5rem 0.7rem;  
+    display: flex;
+    justify-content: space-around;
+  }
+  .almembres2{   list-style: none;
+    background-color: #BAB9B4 ;
+    width: 85vw;
+    margin: 4rem auto 4rem;
+    border-radius: 20px;
+    padding: 0.5rem 0.7rem;  
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .alimg1 , .alimg2 , .alimg3 , .alimg4{
+    display: flex;
+    justify-content: center;
+   padding-top: 2rem;
+   width : 150px;
+  height : 150px;
+  }
+  
+
+  
+    /* Fin partie Augustin*/
