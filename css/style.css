@@ -1,357 +1,39 @@
-
-/*partie JM*/
-header{
-    display :block ;
-    align-items: center;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    padding: 0%;
-}
-body{
-    font-family: Montserrat;
-}
-header h2{
-    color:black;
-}
-header img{
-    width: 15%;
-}
-
-
-ul{
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    padding: 1rem;
-    border-radius: 10%;
-}
-li{
-    padding: 2rem 7rem;
-    justify-content: space-between;
-    border:solid;
-    border-color: gray;
-    text-align: center;
-    justify-content: center;
-    text-decoration: gray;
-    border-radius: 10%;
-
-}
-main{
-    display: grid;
-    background-color: rgb(8, 8, 96);
-    align-items: center;
-    text-align: center;
-}
-.JMmembres{
-    border: solid;
-    margin: 1rem;
-    background-color: grey;
-    background-color: rgb(2, 2, 46);
-    border-color: white;
-
-}
-.JMcatégories{
-    display: flex;
-    margin: 1%;
-    border: solid;
-    padding: 5%;
-    background-color: rgb(2, 2, 46);
-    border-color: white;
-    
-
-}
-.JMprésentation{
-    display:grid ;
-    align-items: center;
-    border-color: white;
-
-}
-
-img{
-    border-radius: 10%;
-    margin: 2%;
-    border-color: white;
-    border:solid;
-    border-color: white;
-}
-
-
-.JMitem1, .JMitem2, .JMitem3{
-    align-items: center;
-    text-align: center;
-    border: solid;
-    border-radius: 10%;
-    margin: 0.25%;
-    background-color: grey;
-    justify-content: space-between;
-    border-color: white;
-}
-/* Changer la couleur pour un élément spécifique */
-h1,h2,h3,p {
-    color:white /* Rouge en RGB */
-}
-h3{
-    text-decoration: white;
-}
-footer{
-    color: black;
-    height: 10%;
-    align-items: center;
-    text-align: center;
-}
-footer p{
-    
-    text-align: center;
-    text-decoration: black;
-    color: black;
-}
-.JMmembres img{
-    margin: 1%;
-    padding: 1%;
-    border-radius: 100%;
-   
-}
-a{
-    text-decoration: none;
-}
-/*code CSS de Kadvael */
-@media screen and (max-width: 1024px) {
-    ul {
-        flex-wrap: wrap;
-    }
-
-    li {
-        padding: 0.5rem 1rem;
-        width: 50%; /* Ajuste la largeur pour que deux éléments tiennent */
-    }
-}
-
-@media screen and (max-width: 768px) {
-    header img {
-        width: 25%; /* Logo plus grand sur les tablettes */
-    }
-
-    .JMcatégories {
-        flex-direction: column;
-    }
-
-    .JMitem1, .JMitem2, .JMitem3 {
-        flex: 1 1 100%; /* Chaque item prend toute la largeur */
-    }
-
-    li {
-        width: 100%; /* Navigation en colonne */
-        margin: 5px 0;
-    }
-
-    footer {
-        height: auto; /* Laissez le footer s'adapter au contenu */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    header img {
-        width: 50%; /* Logo encore plus grand sur mobile */
-    }
-
-    body {
-        font-size: 14px;
-    }
-
-    h1, h2 {
-        font-size: 1.2em;
-    }
-}
-/* fin partie JM */
-
-/* parti Antoine */
-body.ASbody {
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #BAB9B4;
-    color: #404040;
-}
-
-header.ASheader {
-    background-color: #4E888F;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-h1.AStitle {
-    margin: 0;
-}
-
-main.ASmain {
-    padding: 2rem;
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h2.ASsubtitle {
-    color: #4E888F;
-    margin-bottom: 1rem;
-}
-
-p.ASdescription {
-    margin-bottom: 2rem;
-}
-
-form.ASformulaire {
-    display: flex;
-    flex-direction: column;
-}
-
-label.ASlabel {
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-}
-
-input.ASinput, textarea.AStextarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #BAB9B4;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-button.ASbutton {
-    background-color: #4E888F;
-    color: white;
-    padding: 0.75rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-button.ASbutton:hover {
-    background-color: #404040;
-}
-
-div.AScontact-info {
-    margin-top: 2rem;
-}
-
-h3.AScontact-title {
-    margin-bottom: 1rem;
-}
-
-p.AScontact-item {
-    margin: 0.5rem 0;
-}
-
-ul.ASsocial-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-li.ASsocial-item {
-    margin: 0.5rem 0;
-}
-
-a.ASsocial-link { color: #4E888F;
-    text-decoration: none;
-}
-
-a.ASsocial-link:hover {
-    text-decoration: underline;
-}
-/* fin parti Antoine */
-header h1 {
-    color: #404040;
-    background-color: #4E888F;
-    padding: 20px;
-    margin: 0;
-    border-bottom: 5px solid #404040;
-}
-
-.KC-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-.KC-box {
-
-    display: flex;
-    justify-content: space-between;
-    background-color: #4E888F;
-    width: 85vw;
-    margin: 4rem auto 4rem;
-    border-radius: 20px;
-    padding: 0.5rem 0.7rem;
-    
-  }
-  ul{
-  list-style: none;
-  }
-
-
-.KC-box:nth-child(even) {
-    flex-direction: row-reverse;
-    background-color: #BAB9B4;
-    color: #404040;
-}
-
-.KC-box img {
-    width: 150px;
-    height: 150px;
-    border-radius: 8px;
-    object-fit: cover;
-    border: 2px solid #000000;
-}
-
-.KC-box-text {
-    max-width: 70%;
-    padding: 0 15px;
-}
-
-.KC-box-text h3 {
-    margin: 0 0 10px;
-    font-size: 1.2rem;
-    color: #404040;
-}
-
-.KC-box-text h3 a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.KC-box-text h3 a:hover {
-    text-decoration: underline;
-    color: #404040;
-}
-
-.KC-box-text p {
-    margin: 0;
-    font-size: 1rem;
-    color: #666;
-}
-}*/
 /* Partie augustin*/
 .alpresident , .alpresidentadj , .altresorier , .alsecretaire {
-    list-style: none;
-    display: flex;
-  }
-  .almembres1{
-    list-style: none;
-    background-color: #4E888F;
-    width: 85vw;
-    margin: 4rem auto 4rem;
-    border-radius: 20px;
-    padding: 0.5rem 0.7rem;
-  
+  list-style: none;
+  display:block;
 
-  }
+}
+.almembres1{
+  list-style: none;
+  background-color: #4E888F;
+  width: 85vw;
+  margin: 4rem auto 4rem;
+  border-radius: 20px;
+  padding: 0.5rem 0.7rem;  
+  display: flex;
+  justify-content: space-around;
+}
+.almembres2{   list-style: none;
+  background-color: #BAB9B4 ;
+  width: 85vw;
+  margin: 4rem auto 4rem;
+  border-radius: 20px;
+  padding: 0.5rem 0.7rem;  
+  display: flex;
+  justify-content: space-around;
+
+}
+.alimg1 , .alimg2 , .alimg3 , .alimg4{
+  display: flex;
+  justify-content: center;
+ padding-top: 2rem;
+ width : 150px;
+height : 150px;
+}
+
+ul{
+  list-style: none;
+}
 
   /* Fin partie Augustin*/
-
