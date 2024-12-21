@@ -1,5 +1,9 @@
+
 /*<<<<<<< HEAD
 code CSS de Kadvael */
+
+/*
+code JM */
 
 .JMheader{
     display :block ;
@@ -40,7 +44,7 @@ code CSS de Kadvael */
 }
 .JMmain{
     display: grid;
-    background-color: rgb(8, 8, 96);
+    background-color: #404040 ;
     align-items: center;
     text-align: center;
 }
@@ -48,7 +52,7 @@ code CSS de Kadvael */
     border: solid;
     margin: 1rem;
     background-color: grey;
-    background-color: rgb(2, 2, 46);
+    background-color:#4E888F ;
     border-color: white;
 
 }
@@ -57,7 +61,7 @@ code CSS de Kadvael */
     margin: 1%;
     border: solid;
     padding: 5%;
-    background-color: rgb(2, 2, 46);
+    background-color: #4E888F;
     border-color: white;
     
 
@@ -84,7 +88,7 @@ code CSS de Kadvael */
     border: solid;
     border-radius: 10%;
     margin: 0.25%;
-    background-color: grey;
+    background-color:#404040;
     justify-content: space-between;
     border-color: white;
 }
@@ -116,7 +120,10 @@ code CSS de Kadvael */
 .JMa{
     text-decoration: none;
 }
+
 /*code CSS de Kadvael 
+
+/*
 @media screen and (max-width: 1024px) {
     .JMul {
         flex-wrap: wrap;
@@ -165,7 +172,14 @@ code CSS de Kadvael */
     }
 */
 
-body {
+
+
+/* fin partie JM */
+
+/* parti Antoine */
+body.ASbody {
+
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -173,13 +187,96 @@ body {
     color: #404040;
 }
 
-header h1 {
-    color: #404040;
+header.ASheader {
     background-color: #4E888F;
-    padding: 20px;
-    margin: 0;
-    border-bottom: 5px solid #404040;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
 }
+
+h1.AStitle {
+    margin: 0;
+}
+
+main.ASmain {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2.ASsubtitle {
+    color: #4E888F;
+    margin-bottom: 1rem;
+}
+
+p.ASdescription {
+    margin-bottom: 2rem;
+}
+
+form.ASformulaire {
+    display: flex;
+    flex-direction: column;
+}
+
+label.ASlabel {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input.ASinput, textarea.AStextarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #BAB9B4;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button.ASbutton {
+    background-color: #4E888F;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button.ASbutton:hover {
+    background-color: #404040;
+}
+
+div.AScontact-info {
+    margin-top: 2rem;
+}
+
+h3.AScontact-title {
+    margin-bottom: 1rem;
+}
+
+p.AScontact-item {
+    margin: 0.5rem 0;
+}
+
+ul.ASsocial-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.ASsocial-item {
+    margin: 0.5rem 0;
+}
+
+a.ASsocial-link { color: #4E888F;
+    text-decoration: none;
+}
+
+a.ASsocial-link:hover {
+    text-decoration: underline;
+}
+/* fin parti Antoine */
+
 
 .KC-container {
     display: grid;
@@ -189,8 +286,8 @@ header h1 {
 }
 
 .KC-box {
+
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background-color: #4E888F;
     border: 1px solid #404040;
@@ -199,7 +296,7 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: #ffffff;
 }
-
+ 
 .KC-box:nth-child(even) {
     flex-direction: row-reverse;
     background-color: #BAB9B4;
@@ -239,5 +336,5 @@ header h1 {
     margin: 0;
     font-size: 1rem;
     color: #666;
+}
 
-}}
